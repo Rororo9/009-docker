@@ -1,0 +1,34 @@
+15.14: Pulling from library/node
+bfde2ec33fbc: Pulling fs layer
+787f5e2f1047: Pull complete
+7b6173a10eb8: Pull complete
+dc05be471d51: Pull complete
+55fab5cadd3c: Pull complete
+bd821d20ef8c: Pull complete
+6041b69671c6: Pull complete
+989c5d2d2313: Pull complete
+4b57d41e8391: Pull complete
+Digest: sha256:608bba799613b1ebf754034ae008849ba51e88b23271412427b76d60ae0d0627
+Status: Downloaded newer image for node:15.14
+docker.io/library/node:15.14
+
+aa9b1180930774305a3cbad05f19715fea84b7cbf5b19831dfd121679c04ce49
+
+b9fa5e6dff4a67ff433bd8a7c71f70a2e22085f61cb971781b746e9ec8bbb0a4
+
+root@aa9b11809307:/# echo "Привет" > /var/first/data/hello.txt
+root@aa9b11809307:/# exit
+exit
+
+root@b9fa5e6dff4a:/# ls /var/second/data
+root@b9fa5e6dff4a:/# cat /var/second/data/hello.txt
+root@b9fa5e6dff4a:/# cat /var/second/data/hello_second.txt
+root@b9fa5e6dff4a:/# exit
+exit
+
+first_node
+second_node
+
+first_node
+second_node
+

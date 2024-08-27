@@ -1,0 +1,71 @@
+latest: Pulling from library/busybox
+ec562eabd705: Pull complete
+Digest: sha256:9ae97d36d26566ff84e8893c64a6dc4fe8ca6d1144bf5b87b2b85a32def253c7
+Status: Downloaded newer image for busybox:latest
+docker.io/library/busybox:latest
+
+PING netology.ru (172.67.21.207): 56 data bytes
+64 bytes from 172.67.21.207: seq=0 ttl=63 time=127.825 ms
+64 bytes from 172.67.21.207: seq=1 ttl=63 time=127.845 ms
+64 bytes from 172.67.21.207: seq=2 ttl=63 time=128.055 ms
+64 bytes from 172.67.21.207: seq=3 ttl=63 time=127.902 ms
+64 bytes from 172.67.21.207: seq=4 ttl=63 time=127.899 ms
+64 bytes from 172.67.21.207: seq=5 ttl=63 time=127.640 ms
+64 bytes from 172.67.21.207: seq=6 ttl=63 time=127.822 ms
+
+--- netology.ru ping statistics ---
+7 packets transmitted, 7 packets received, 0% packet loss
+round-trip min/avg/max = 127.640/127.855/128.055 ms
+
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+c8f7ba666df8   busybox   "ping netology.ru -c…"   14 seconds ago   Exited (0) 7 seconds ago             pinger
+
+PING netology.ru (172.67.21.207): 56 data bytes
+64 bytes from 172.67.21.207: seq=0 ttl=63 time=127.825 ms
+64 bytes from 172.67.21.207: seq=1 ttl=63 time=127.845 ms
+64 bytes from 172.67.21.207: seq=2 ttl=63 time=128.055 ms
+64 bytes from 172.67.21.207: seq=3 ttl=63 time=127.902 ms
+64 bytes from 172.67.21.207: seq=4 ttl=63 time=127.899 ms
+64 bytes from 172.67.21.207: seq=5 ttl=63 time=127.640 ms
+64 bytes from 172.67.21.207: seq=6 ttl=63 time=127.822 ms
+
+--- netology.ru ping statistics ---
+7 packets transmitted, 7 packets received, 0% packet loss
+round-trip min/avg/max = 127.640/127.855/128.055 ms
+
+pinger
+PS C:\Users\freeg\Desktop\code\Netology\my-homeworks\ndse-homeworks\009-docker> docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                    PORTS     NAMES
+c8f7ba666df8   busybox   "ping netology.ru -c…"   45 seconds ago   Exited (0) 1 second ago             pinger
+
+PING netology.ru (172.67.21.207): 56 data bytes
+64 bytes from 172.67.21.207: seq=0 ttl=63 time=127.825 ms
+64 bytes from 172.67.21.207: seq=1 ttl=63 time=127.845 ms
+64 bytes from 172.67.21.207: seq=2 ttl=63 time=128.055 ms
+64 bytes from 172.67.21.207: seq=3 ttl=63 time=127.902 ms
+64 bytes from 172.67.21.207: seq=4 ttl=63 time=127.899 ms
+64 bytes from 172.67.21.207: seq=5 ttl=63 time=127.640 ms
+64 bytes from 172.67.21.207: seq=6 ttl=63 time=127.822 ms
+
+--- netology.ru ping statistics ---
+7 packets transmitted, 7 packets received, 0% packet loss
+round-trip min/avg/max = 127.640/127.855/128.055 ms
+PING netology.ru (172.67.21.207): 56 data bytes
+64 bytes from 172.67.21.207: seq=0 ttl=63 time=127.311 ms
+64 bytes from 172.67.21.207: seq=1 ttl=63 time=128.284 ms
+64 bytes from 172.67.21.207: seq=2 ttl=63 time=127.940 ms
+64 bytes from 172.67.21.207: seq=3 ttl=63 time=128.079 ms
+64 bytes from 172.67.21.207: seq=4 ttl=63 time=128.090 ms
+64 bytes from 172.67.21.207: seq=5 ttl=63 time=128.335 ms
+64 bytes from 172.67.21.207: seq=6 ttl=63 time=127.343 ms
+
+--- netology.ru ping statistics ---
+7 packets transmitted, 7 packets received, 0% packet loss
+round-trip min/avg/max = 127.311/127.911/128.335 ms
+
+pinger
+
+Untagged: busybox:latest
+Untagged: busybox@sha256:9ae97d36d26566ff84e8893c64a6dc4fe8ca6d1144bf5b87b2b85a32def253c7
+Deleted: sha256:65ad0d468eb1c558bf7f4e64e790f586e9eda649ee9f130cd0e835b292bbc5ac
+Deleted: sha256:d51af96cf93e225825efd484ea457f867cb2b967f7415b9a3b7e65a2f803838a
